@@ -1,0 +1,45 @@
+html, body{
+      height: 100%;
+      width: 100%;
+}
+.btn{
+      padding: 20px;
+      margin: 0 3px;
+      border: 2px solid black;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+      background-color: lightgrey;
+}
+.btn:hover{
+      background-color: black;
+      color: white;
+}
+.row{
+      margin: 7px 0;
+}
+.row input{
+      font-size: 20px;
+      margin: 0;
+      padding: 10px 0;
+      border: 2px solid black;
+      border-radius: 5px;
+}
+.container{
+      margin: 0 40vw;
+      border: 2px solid black;
+      border-radius: 20px;
+      background-color: grey;
+}
+.text-center{
+      text-align: center;
+}
+.flex{
+      display: flex;
+}
+.flex-col{
+      flex-direction: column;
+}
+.items-center{
+      align-items: center;
+}
